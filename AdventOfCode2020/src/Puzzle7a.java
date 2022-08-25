@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.sql.Array;
 import java.util.*;
 
 public class Puzzle7a {
@@ -41,10 +40,11 @@ public class Puzzle7a {
             }
 
             System.out.println(numOfNames);
-
+            br.close();
         } catch (Exception e) {
             System.out.println("Debug: " + debug);
             e.printStackTrace();
         }
+
     }
 }
