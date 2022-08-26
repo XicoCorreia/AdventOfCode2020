@@ -8,7 +8,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class daySeven {
+import Auxiliary.Bag;
+
+public class DaySeven {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("inputs/bags.txt"));

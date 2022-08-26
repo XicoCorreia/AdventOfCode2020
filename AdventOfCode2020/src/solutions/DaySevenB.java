@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.*;
 
-public class Puzzle7a {
+import Auxiliary.Bag;
+
+public class DaySevenB {
 
     public static List<String> getAllBagsThatContains(List<Bag> currentBags, String name) {
         List<String> names = new ArrayList<>();
