@@ -47,7 +47,7 @@ public class DayEight {
 			
 		}
 		
-		//System.out.println(acc);
+		System.out.println(acc);
 	}
 
 	
