@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DayEight {
+public class Day08 {
 
 	public static void main(String[] args) throws IOException {
 		List<String[]> values = read();
