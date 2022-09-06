@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class Day04 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/passports.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day04.txt"));
 		String line;
 		String passport = "";
 		int count = 0;

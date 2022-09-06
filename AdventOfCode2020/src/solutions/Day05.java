@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Day05 {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/seats.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day05.txt"));
 		
 		String line;
 		int[] seats = new int[1031];

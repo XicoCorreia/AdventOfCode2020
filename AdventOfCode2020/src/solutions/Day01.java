@@ -8,8 +8,8 @@ public class Day01 {
 	public static void main(String[] args) {
 		
 		try {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/puzzle.txt"));
-		BufferedReader br1 = new BufferedReader(new FileReader("inputs/puzzle.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day01.txt"));
+		BufferedReader br1 = new BufferedReader(new FileReader("inputs/day01.txt"));
 		int[] numbers = new int[(int) br1.lines().count()];
 		
 		for (int i = 0; i < numbers.length; i++) {numbers[i] = Integer.valueOf(br.readLine()); }

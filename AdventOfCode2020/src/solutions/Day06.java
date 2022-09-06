@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Day06 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/questions.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day06.txt"));
 		String line;
 		String group = "";
 		int count = 0;

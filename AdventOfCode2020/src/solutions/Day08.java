@@ -99,7 +99,7 @@ public class Day08 {
 	}
 	
 	public static List<String[]> read() throws IOException{
-		BufferedReader br = new BufferedReader(new FileReader("inputs/flight.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day08.txt"));
 		String line;
 		List<String[]> values = new ArrayList<String[]>();
 		

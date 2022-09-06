@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Day02 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/passwords.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day02.txt"));
 		String a;
 		int count = 0;
 		while((a = br.readLine()) != null) {

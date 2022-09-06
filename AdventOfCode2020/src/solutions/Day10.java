@@ -13,7 +13,7 @@ public class Day10 {
 		private static Map<String, Long> cache;
 		
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/tests.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day10.txt"));
 		String line;
 		List<Integer> values = new ArrayList<Integer>();
 		

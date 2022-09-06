@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class Day03 {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/trees.txt"));
-		BufferedReader br1 = new BufferedReader(new FileReader("inputs/trees.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day03.txt"));
+		BufferedReader br1 = new BufferedReader(new FileReader("inputs/day03.txt"));
 
 		String[] map = new String[(int) br1.lines().count()];
 		for (int i = 0; i < map.length; i++) { map[i] = br.readLine(); }

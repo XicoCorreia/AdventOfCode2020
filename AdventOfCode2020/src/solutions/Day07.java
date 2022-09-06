@@ -17,7 +17,7 @@ public class Day07 {
 	}	
 	
 	public static void part1() throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/bags.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day07.txt"));
 		String line;
 		List<Bag> bags = new ArrayList<>();
 		

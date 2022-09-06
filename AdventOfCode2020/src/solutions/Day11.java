@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Day11 {
 	 public static void main(String[] args) throws IOException {
-			BufferedReader br = new BufferedReader(new FileReader("inputs/day10.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("inputs/day11.txt"));
 			String line;
 			List<String> values = new ArrayList<String>();
 				
@@ -28,13 +28,6 @@ public class Day11 {
 		 boolean changed = false;
 		 
 		 while(!changed) {
-			 for (int i = 0; i < seats.length; i++) {
-				for (int j = 0; j < seats[0].length; j++) {
-					System.out.print(seats[i][j]);
-				}
-				System.out.println();
-			}
-			 System.out.println("-------------------------------");
 			 
 			 char[][] temp = updatepart2(seats);
 			 changed = true;

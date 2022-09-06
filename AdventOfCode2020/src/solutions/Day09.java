@@ -9,7 +9,7 @@ import java.util.List;
 public class Day09 {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("inputs/xmas.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/day09.txt"));
 		String line;
 		
 		List<Long> values = new ArrayList<Long>();
