@@ -1,9 +1,9 @@
 package solutions;
 
 import java.io.BufferedReader;
+
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.invoke.SwitchPoint;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,7 +66,6 @@ public class Day12 {
 	private static void part2(List<String> values) {
 		int[] wayPointNorthEast= {1,10};
 		int[] shipNorthEast= {0,0};
-		double direction = 5.71;
 		for(String dString : values) {
 			char c = dString.charAt(0);
 			int amount = Integer.valueOf(dString.substring(1));
