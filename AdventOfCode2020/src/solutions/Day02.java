@@ -18,7 +18,6 @@ public class Day02 {
 		System.out.println(count);
 		br.close();
 	}
-	
 	/**
 	 * It checks if a password is valid.
 	 * 
