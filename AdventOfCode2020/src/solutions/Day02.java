@@ -19,6 +19,12 @@ public class Day02 {
 		br.close();
 	}
 	
+	/**
+	 * It checks if a password is valid.
+	 * 
+	 * @param arr an array of strings
+	 * @return The number of times the letter appears in the password.
+	 */
 	public static boolean isPassword(String[] arr) {
 		int min = Integer.valueOf(arr[0]);
 		int max = Integer.valueOf(arr[1]);
@@ -32,6 +38,13 @@ public class Day02 {
 		return count >=min && count <= max ? true : false; 
 	}
 	
+	/**
+	 * If the first index is equal to the letter, then the second index must not be equal to the letter.
+	 * Otherwise, the second index must be equal to the letter
+	 * 
+	 * @param arr an array of strings
+	 * @return The method is returning a boolean value.
+	 */
 	public static boolean isValid(String[] arr) {
 			int index1 = Integer.valueOf(arr[0]) - 1;
 			int index2 = Integer.valueOf(arr[1]) - 1;
