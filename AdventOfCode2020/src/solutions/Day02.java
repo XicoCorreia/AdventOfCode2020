@@ -1,8 +1,12 @@
 package solutions;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
+
+import javax.lang.model.util.ElementScanner7;
 
 public class Day02 {
 	public static void main(String[] args) throws IOException {
